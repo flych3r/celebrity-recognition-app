@@ -34,6 +34,10 @@ def paginator(label, items, items_per_page=10, on_sidebar=True):
     ...
     ... for i, fruit in paginator("Select a fruit page", fruit_list):
     ...     st.write('%s. **%s**' % (i, fruit))
+
+    References
+    ----------
+        Source: https://discuss.streamlit.io/t/multiple-images-along-the-same-row/118/8
     """
 
     # Figure out where to display the paginator
