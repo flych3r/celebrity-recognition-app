@@ -12,4 +12,4 @@ Before running, set the following environment variables:
 `export CELEBS_BUCKET=<s3-bucket-name>`
 `export CELEBS_TABLE=<dynamodb-table-name>`
 
-run the command: `streamlit run App.py`
+run the command: `streamlit run App.py --server.enableCORS=true`
